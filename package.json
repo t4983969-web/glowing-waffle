@@ -1,0 +1,18 @@
+{
+  "name": "mengxin-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "个人版虚拟角色聊天 App（Capacitor 打包 Android）",
+  "scripts": {
+    "setup": "[ -d android ] || npx cap add android",
+    "sync": "npx cap sync android",
+    "apk": "npm run setup && npx cap sync android && cd android && ./gradlew assembleDebug"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0"
+  }
+}
