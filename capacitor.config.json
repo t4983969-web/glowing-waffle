@@ -1,0 +1,10 @@
+{
+  "appId": "com.yourname.xinyu",
+  "appName": "心语手机",
+  "webDir": "www",
+  "plugins": {
+    "CapacitorHttp": {
+      "enabled": true
+    }
+  }
+}
